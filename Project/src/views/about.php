@@ -16,7 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+
 	<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPW742VFLZ"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-CPW742VFLZ'); </script>
 	<script>
     function getDeviceType() {
@@ -69,9 +70,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto justify-content-center">
-                        <li class="nav-item"><a class="nav-link" href="index.php#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.php#treatments">Treatments</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.php#direction">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../public/index.php#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../public/index.php#treatments">Treatments</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../public/index.php#direction">Contact Us</a></li>
                     </ul>
                     <div>
                         <a href="https://www.google.com/maps?q=44.85559,-75.76025" target="_blank" class="btn btn-gps" id="GPS">
@@ -86,7 +87,7 @@
     <section id="about" class="content-section">
         <div class="aboutmecontainer">
             <div class="about-us-section-onpage">
-                <a href="index.php#about" class='homeButton'> 
+                <a href="../../public/index.php#about" class='homeButton'> 
                     <button class="backtohome"> 
                         <span class="arrow"></span>
                     </button>
@@ -99,7 +100,7 @@
                     <p>Outside of treating clients, I find joy in traveling and creating lasting memories with my family. Staying active is a vital part of my lifestyle—I love the peace of a brisk walk, the mindfulness of yoga, and the energy of cycling. Living in the picturesque community of Merrickville is something I truly cherish. Its welcoming charm, vibrant local culture, and beautiful surroundings inspire me daily and make it the perfect place to call home.</p>
                 </div>
                 <div class="image-container-onpage">
-                    <img src="image/aboutme.png" alt="About Us" class="img-fluid rounded-img">
+                    <img src="/public/assets/image/aboutme.png" alt="About Us" class="img-fluid rounded-img">
                 </div>
             </div>
         </div>

@@ -13,7 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="styleAlt.css">
+    <link rel="stylesheet" href="css/styleAlt.css">
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPW742VFLZ"></script>
     <script>
@@ -64,6 +65,8 @@
     // Call updateLink function on page load to update the button
     window.onload = updateLink;
   </script>
+    <script src="/assets/js/script.js" defer></script>
+
 	
 </head>
 
@@ -93,7 +96,7 @@
 	<div>
 		<section id="head1" class="Parallax">
 			<div class="hero-content">
-				<img src="image/LogoNegativ.png" height="100px">
+				<img src="/public/assets/image/LogoNegativ.png" height="100px">
 				<br>
 				<h1 id="text1">"Embrace life fully—move freely and without limitations."</h1>
 				<br>
@@ -103,17 +106,51 @@
 			</div>
 		</section>
 
+        <section id="treatments" class="content-section">
+        <div class="container mx-auto px-4 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <?php
+                require_once '../src/components/Card.php';
+
+                // Swedish Massage Card
+                echo renderCard(
+                    'Swedish Massage',
+                    'assets/images/Swedish Massage.png',
+                    '../src/components/SwedishMassage.php',
+                    'A gentle form of massage that uses long strokes, kneading, and circular movements.'
+                );
+
+                // Deep Tissue Massage Card
+                echo renderCard(
+                    'Deep Tissue Massage',
+                    'assets/images/Deep Tissue Massage.png',
+                    '../src/components/DeepTissueMassage.php',
+                    'Targets deeper layers of muscle and connective tissue.'
+                );
+
+                // Sports Massage Card
+                echo renderCard(
+                    'Sports Massage',
+                    'assets/images/Sports.png',
+                    '../src/components/SportsMassage.php',
+                    'Designed to help athletes prepare for and recover from athletic performance.'
+                );
+                ?>
+            </div>
+        </div>
+    </section>
+
 		<section id="about" class="content-section aboutmecontainer">
 			<div class="container">
 				<div class="about-us-section">
 					<div class="image-container">
-						<img src="image/5 1.png" alt="About Us" class="img-fluid rounded-img">
+						<img src="/public/assets/image/5 1.png" alt="About Us" class="img-fluid rounded-img">
 						<h3 class="bubble">Lori McIntosh-Belanger</h3>
 					</div>
 					<div class="info bubble">
 						<h2>About Me</h2>
 						<p>I am committed to collaborating with patients to move without pain, enhance their overall well-being and actively participate in their own recovery.</p>
-						<a href="about.php">
+						<a href="../src/views/about.php">
 							<button class="learn">Learn more</button>
 						</a>
 					</div>
@@ -123,9 +160,9 @@
 	</div>
 
     <section id="parallax2" class="parallax">
-        <div class="parallax-content2">
+    <div class="parallax-content2">
             <div class="aligning-content">
-                <img src="image/White tree 2.png" height="100px">
+                <img src="/public/assets/image/White tree 2.png" height="100px">
                 <h1>Massage therapy provides a natural, hands-on approach to wellness.
                     It serves both preventive and restorative purposes, focusing on addressing the root causes
                     of pain or discomfort rather than merely treating individual symptoms.</h1>
@@ -136,10 +173,38 @@
     <section id="treatments" class="content-section">
         <div class="container">
             <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <a href="../src/components/DeepTissueMassage.php" class="cardLink">
+                <div class="card service-card">
+                            <img src="/public/assets/image/Swedish Massage.png" alt="Swedish Massage" class="card-img-top rounded-img img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-title text-left">Swedish Massage </h5>
+
+                                <button class="learn">Learn more</button>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
                 <div class="col-md-6 col-lg-4">
-                    <a href="Swedish Massage.php" class="cardLink">
-                        <div class="card service-card">
-                            <img src="image/Swedish Massage.png" alt="Swedish Massage" class="card-img-top rounded-img img-fluid">
+                <a href="../src/components/DeepTissueMassage.php" class="cardLink">
+                <div class="card service-card">
+                            <img src="/public/assets/image/Swedish Massage.png" alt="Swedish Massage" class="card-img-top rounded-img img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-title text-left">Swedish Massage </h5>
+
+                                <button class="learn">Learn more</button>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                <a href="../src/components/DeepTissueMassage.php" class="cardLink">
+                <div class="card service-card">
+                            <img src="/public/assets/image/Swedish Massage.png" alt="Swedish Massage" class="card-img-top rounded-img img-fluid">
                             <div class="card-body">
                                 <h5 class="card-title text-left">Swedish Massage </h5>
 
@@ -151,34 +216,7 @@
                 </div>
 
 
-                <div class="col-md-6 col-lg-4">
-                    <a href="Deep Tissue Massage.php" class="cardLink">
-                        <div class="card service-card">
-                            <img src="image/Deep Tissue Massage.png" alt="Deep Tissue Massage" class="card-img-top rounded-img img-fluid">
-                            <div class="card-body">
-                                <h5 class="card-title text-left">Deep Tissue Massage </h5>
-
-                                <button class="learn">Learn more</button>
-
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="col-md-6 col-lg-4">
-                    <a href="Sports Massage.php" class="cardLink">
-                        <div class="card service-card">
-                            <img src="image/Sports.png" alt="Sports" class="card-img-top rounded-img img-fluid">
-                            <div class="card-body">
-                                <h5 class="card-title text-left">Sports Massage</h5>
-
-                                <button class="learn">Learn more</button>
-
-                            </div>
-                        </div>
-                    </a>
-                </div>
+               
             </div>
         </div>
     </section>
@@ -226,15 +264,15 @@
                 <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
                     <a class="nav-link" href="#treatments"><h5 class="text-center">Our Services</h5></a>
                     <ul class="list-unstyled text-center">
-                        <li><a href="Swedish Massage.php" class="footcolor">Swedish Massage</a></li>
-                        <li><a href="Deep Tissue Massage.php" class="footcolor">Deep Tissue Massage</a></li>
-                        <li><a href="Sports Massage.php" class="footcolor">Sport Massage</a></li>
+                        <li><a href="/src/Swedish Massage.php" class="footcolor">Swedish Massage</a></li>
+                        <li><a href="/src/Deep Tissue Massage.php" class="footcolor">Deep Tissue Massage</a></li>
+                        <li><a href="/src/Sports Massage.php" class="footcolor">Sport Massage</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
                     <div class="mt-4">
-                        <img src="image/LogoPositiv.png" height="100px">
+                        <img src="/public/assets/image/LogoPositiv.png" height="100px">
                     </div>
                 </div>
             </div>

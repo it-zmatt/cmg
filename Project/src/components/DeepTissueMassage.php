@@ -19,7 +19,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/public/css/style.css">
 	<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPW742VFLZ"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-CPW742VFLZ'); </script>
 	<script>
     function getDeviceType() {
@@ -72,9 +72,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto justify-content-center">
-                        <li class="nav-item"><a class="nav-link" href="index.php#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.php#treatments">Treatments</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.php#direction">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../public/index.php#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../public/index.php#treatments">Treatments</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../public/index.php#direction">Contact Us</a></li>
                     </ul>
                     <div>
                         <a href="https://www.google.com/maps?q=44.85559,-75.76025" target="_blank" class="btn btn-gps" id="GPS">
@@ -88,12 +88,12 @@
     
     <section id="AllContent">
         <div id="ContentTextandPicture">
-            <a class="buttonspace" href="index.php#treatments"> 
+            <a class="buttonspace" href="../../public/index.php#about"> 
                 <button class="backtohomeforotherpages"> 
                     <span class="arrow"></span>
                 </button>
             </a>
-            <img src="image/fulldeep.png" alt="Deep Tissue Massage" class="card-img-top img-fluid specficonpageimage rounded-img">
+            <img src="/public/assets/image/fulldeep.png" alt="Deep Tissue Massage" class="card-img-top img-fluid specficonpageimage rounded-img">
             <br>
             <div id="underpicture_content">
                 <h2>Deep Tissue Massage</h2>
