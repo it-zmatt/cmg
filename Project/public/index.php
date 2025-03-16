@@ -105,41 +105,7 @@
 				</div>
 			</div>
 		</section>
-
-        <section id="treatments" class="content-section">
-        <div class="container mx-auto px-4 py-12">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <?php
-                require_once '../src/components/Card.php';
-
-                // Swedish Massage Card
-                echo renderCard(
-                    'Swedish Massage',
-                    'assets/images/Swedish Massage.png',
-                    '../src/components/SwedishMassage.php',
-                    'A gentle form of massage that uses long strokes, kneading, and circular movements.'
-                );
-
-                // Deep Tissue Massage Card
-                echo renderCard(
-                    'Deep Tissue Massage',
-                    'assets/images/Deep Tissue Massage.png',
-                    '../src/components/DeepTissueMassage.php',
-                    'Targets deeper layers of muscle and connective tissue.'
-                );
-
-                // Sports Massage Card
-                echo renderCard(
-                    'Sports Massage',
-                    'assets/images/Sports.png',
-                    '../src/components/SportsMassage.php',
-                    'Designed to help athletes prepare for and recover from athletic performance.'
-                );
-                ?>
-            </div>
-        </div>
-    </section>
-
+  
 		<section id="about" class="content-section aboutmecontainer">
 			<div class="container">
 				<div class="about-us-section">
