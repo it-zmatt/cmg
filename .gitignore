@@ -24,3 +24,8 @@ Thumbs.db
 # Environment and config files (if using)
 .env
 config/database.php
+
+node_modules/
+package-lock.json
+yarn.lock
+

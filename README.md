@@ -1,10 +1,49 @@
-# cmg
-CMG Massage Therapy
+# PHP Project Setup & Local Server Guide
 
-You may need to install npm and composer if the project is not working for you
+## Prerequisites
+Ensure you have the following installed:
 
-* npm install
+### Mac:
+- PHP (Check with `php -v`, install with `brew install php` if needed)
+- Built-in PHP server (included with macOS)
 
-* composer install
+### Windows:
+- **Option 1**: Laragon (Recommended for a lightweight environment)
+- **Option 2**: XAMPP
+
+---
+## Running the Project
+
+### 🖥️ On Windows (Using Laragon)
+1. Move your project folder into:
+```sh
+    C:\laragon\www\
+```
+2. Open Laragon and start Apache and MySQL.
+
+3. Open a browser and go to:
+```sh
+    http://localhost/public/index.php
+```
+
+
+---
+
+
+### 🖥️ On Mac (Using Built-in PHP Server)
+1. Open a terminal and navigate to the project root:
+```sh
+   cd path/to/Project
+```
+
+2. Start the PHP built-in server:
+```sh
+    php -S localhost:8000 -t public
+```
+
+3. Open in your browser.
+```sh
+    http://localhost/public/index.php
+```
 
 
