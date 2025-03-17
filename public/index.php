@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CMG Massage Therapy</title>
+    <meta name="description" content="CMG Massage Therapy in Merrickville offers professional Swedish, Deep Tissue, and Sports massage services. Book your massage today!">
+
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -14,6 +16,46 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styleAlt.css">
+
+    <!-- TailWind CSS -->
+    <link rel="stylesheet" href="css/tailwind.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "CMG Massage Therapy",
+            "image": "https://www.cmgmassagetherapy.com/public/assets/image/LogoPositiv.png",
+            "@id": "https://www.cmgmassagetherapy.com",
+            "url": "https://www.cmgmassagetherapy.com",
+            "telephone": "+1-613-800-2018",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "290 Snowdon Drive East",
+                "addressLocality": "Merrickville",
+                "addressRegion": "ON",
+                "postalCode": "K0G 1N0",
+                "addressCountry": "CA"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 44.85559,
+                "longitude": -75.76025
+            },
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "09:00",
+                "closes": "18:00"
+            },
+            "priceRange": "$$"
+        }
+    </script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPW742VFLZ"></script>
@@ -26,48 +68,48 @@
         gtag('js', new Date());
         gtag('config', 'G-CPW742VFLZ');
     </script>
-	<script>
-    function getDeviceType() {
-      // Check for iOS or Android
-      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    <script>
+        function getDeviceType() {
+            // Check for iOS or Android
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
-      // If it's an iOS device (iPhone, iPad, iPod)
-      if (/iPhone|iPad|iPod/.test(userAgent)) {
-        return 'ios';
-      }
-      // If it's an Android device
-      if (/android/i.test(userAgent)) {
-        return 'android';
-      }
-      // Default if it's neither (e.g., desktop)
-      return 'desktop';
-    }
+            // If it's an iOS device (iPhone, iPad, iPod)
+            if (/iPhone|iPad|iPod/.test(userAgent)) {
+                return 'ios';
+            }
+            // If it's an Android device
+            if (/android/i.test(userAgent)) {
+                return 'android';
+            }
+            // Default if it's neither (e.g., desktop)
+            return 'desktop';
+        }
 
-    function updateLink() {
-      const deviceType = getDeviceType();
+        function updateLink() {
+            const deviceType = getDeviceType();
 
-      let link = '';
-      if (deviceType === 'ios') {
-        // Apple Maps link for iOS
-        link = `http://maps.apple.com/?daddr=290+Snowdon+Dr%2C+290+Snowdon+Dr+Merrickville+ON+K0G+1N0+Canada`;
-      } else if (deviceType === 'android') {
-        // Google Maps link for Android
-        link = `https://www.google.com/maps/dir/?api=1&destination=290+Snowdon+Dr%2C+290+Snowdon+Dr+Merrickville+ON+K0G+1N0+Canada`;
-      } else {
-        // Default to a general Google Maps link for desktop
-        link = `https://www.google.com/maps/dir/?api=1&destination=290+Snowdon+Dr%2C+290+Snowdon+Dr+Merrickville+ON+K0G+1N0+Canada`;
-      }
+            let link = '';
+            if (deviceType === 'ios') {
+                // Apple Maps link for iOS
+                link = `http://maps.apple.com/?daddr=290+Snowdon+Dr%2C+290+Snowdon+Dr+Merrickville+ON+K0G+1N0+Canada`;
+            } else if (deviceType === 'android') {
+                // Google Maps link for Android
+                link = `https://www.google.com/maps/dir/?api=1&destination=290+Snowdon+Dr%2C+290+Snowdon+Dr+Merrickville+ON+K0G+1N0+Canada`;
+            } else {
+                // Default to a general Google Maps link for desktop
+                link = `https://www.google.com/maps/dir/?api=1&destination=290+Snowdon+Dr%2C+290+Snowdon+Dr+Merrickville+ON+K0G+1N0+Canada`;
+            }
 
-      // Update the button's link
-      document.getElementById('GPS').href = link;
-    }
+            // Update the button's link
+            document.getElementById('GPS').href = link;
+        }
 
-    // Call updateLink function on page load to update the button
-    window.onload = updateLink;
-  </script>
+        // Call updateLink function on page load to update the button
+        window.onload = updateLink;
+    </script>
     <script src="/assets/js/script.js" defer></script>
 
-	
+
 </head>
 
 
@@ -93,40 +135,40 @@
             </div>
         </nav>
     </header>
-	<div>
-		<section id="head1" class="Parallax">
-			<div class="hero-content">
-				<img src="/public/assets/image/LogoNegativ.png" height="100px">
-				<br>
-				<h1 id="text1">"Embrace life fully—move freely and without limitations."</h1>
-				<br>
-				<div>
-					<a href="https://lorimcintosh-belanger.clinicsense.com/book" target="_blank" class="btn btn-primary">Book Your Massage Now</a>
-				</div>
-			</div>
-		</section>
-  
-		<section id="about" class="content-section aboutmecontainer">
-			<div class="container">
-				<div class="about-us-section">
-					<div class="image-container">
-						<img src="/public/assets/image/5 1.png" alt="About Us" class="img-fluid rounded-img">
-						<h3 class="bubble">Lori McIntosh-Belanger</h3>
-					</div>
-					<div class="info bubble">
-						<h2>About Me</h2>
-						<p>I am committed to collaborating with patients to move without pain, enhance their overall well-being and actively participate in their own recovery.</p>
-						<a href="../src/views/about.php">
-							<button class="learn">Learn more</button>
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-	</div>
+    <div>
+        <section id="head1" class="Parallax">
+            <div class="hero-content">
+                <img src="/public/assets/image/LogoNegativ.png" height="100px">
+                <br>
+                <h1 id="text1">"Embrace life fully—move freely and without limitations."</h1>
+                <br>
+                <div>
+                    <a href="https://lorimcintosh-belanger.clinicsense.com/book" target="_blank" class="btn btn-primary">Book Your Massage Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section aboutmecontainer">
+            <div class="container">
+                <div class="about-us-section">
+                    <div class="image-container">
+                        <img src="/public/assets/image/5 1.png" alt="About Us" class="img-fluid rounded-img">
+                        <h3 class="bubble">Lori McIntosh-Belanger</h3>
+                    </div>
+                    <div class="info bubble">
+                        <h2>About Me</h2>
+                        <p>I am committed to collaborating with patients to move without pain, enhance their overall well-being and actively participate in their own recovery.</p>
+                        <a href="../src/views/about.php">
+                            <button class="learn">Learn more</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <section id="parallax2" class="parallax">
-    <div class="parallax-content2">
+        <div class="parallax-content2">
             <div class="aligning-content">
                 <img src="/public/assets/image/White tree 2.png" height="100px">
                 <h1>Massage therapy provides a natural, hands-on approach to wellness.
@@ -139,9 +181,9 @@
     <section id="treatments" class="content-section">
         <div class="container">
             <div class="row">
-            <div class="col-md-6 col-lg-4">
-                <a href="../src/components/DeepTissueMassage.php" class="cardLink">
-                <div class="card service-card">
+                <div class="col-md-6 col-lg-4">
+                    <a href="../src/components/DeepTissueMassage.php" class="cardLink">
+                        <div class="card service-card">
                             <img src="/public/assets/image/Swedish Massage.png" alt="Swedish Massage" class="card-img-top rounded-img img-fluid">
                             <div class="card-body">
                                 <h5 class="card-title text-left">Swedish Massage </h5>
@@ -154,8 +196,8 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4">
-                <a href="../src/components/DeepTissueMassage.php" class="cardLink">
-                <div class="card service-card">
+                    <a href="../src/components/DeepTissueMassage.php" class="cardLink">
+                        <div class="card service-card">
                             <img src="/public/assets/image/Swedish Massage.png" alt="Swedish Massage" class="card-img-top rounded-img img-fluid">
                             <div class="card-body">
                                 <h5 class="card-title text-left">Swedish Massage </h5>
@@ -168,8 +210,8 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4">
-                <a href="../src/components/DeepTissueMassage.php" class="cardLink">
-                <div class="card service-card">
+                    <a href="../src/components/DeepTissueMassage.php" class="cardLink">
+                        <div class="card service-card">
                             <img src="/public/assets/image/Swedish Massage.png" alt="Swedish Massage" class="card-img-top rounded-img img-fluid">
                             <div class="card-body">
                                 <h5 class="card-title text-left">Swedish Massage </h5>
@@ -182,7 +224,7 @@
                 </div>
 
 
-               
+
             </div>
         </div>
     </section>
@@ -190,29 +232,37 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
     <section id="direction">
-        <div class="AllLocationContent">
-            <div class="Locationhours">
-                <h1>Location</h1>
-                <p>
-                    290 Snowdon Drive East <br>
-                    Merrickville, ON. K0G 1N0 <br>
-                    Canada
-                </p>
-                <br>
-				<h1>Contact Us</h1>
-				<p>
-					<a href="tel:+16138002018" class='btn btn-primary'>Phone: (613) 800-2018</a>
-				</p>
-            </div>
-            <div class="MapAll">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d707.082936850555!2d-75.76057984045127!3d44.85554074154542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccd982126bb630b%3A0xf37fab8ce183918!2s290%20Snowdon%20Dr%2C%20Merrickville-Wolford%2C%20ON%20K0G%201N0!5e0!3m2!1sen!2sca!4v1733372352047!5m2!1sen!2sca"
-                    class="mapObject"
-                    style="border:0;"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+        <!-- <div class="AllLocationContent" > -->
+        <div class="container">
+
+            <div class="row align-items-center justify-content-between g-3 py-4 ">
+                <div class="Locationhours col-6">
+                    <h1>Location</h1>
+                    <p>
+                        290 Snowdon Drive East 
+                        Merrickville,<br> ON. K0G 1N0 
+                        Canada
+                    </p>
+                    <br>
+                    <h1>Hours of Operation:</h1>
+                    <p>Monday to Friday: 8:00am - 8:00pm <br>
+                    Saturday: 10:00am - 18:00pm</p>
+                    <!-- <h1>Contact Us</h1>
+                    <p>
+                        <a href="tel:+16138002018" class='btn btn-primary'>Phone: (613) 800-2018</a>
+                    </p> -->
+                </div>
+                <!-- <div class="MapAll"> -->
+                <div class="col-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d707.082936850555!2d-75.76057984045127!3d44.85554074154542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccd982126bb630b%3A0xf37fab8ce183918!2s290%20Snowdon%20Dr%2C%20Merrickville-Wolford%2C%20ON%20K0G%201N0!5e0!3m2!1sen!2sca!4v1733372352047!5m2!1sen!2sca"
+                        class="mapObject"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
             </div>
         </div>
     </section>
@@ -228,7 +278,9 @@
                 </div>
 
                 <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
-                    <a class="nav-link" href="#treatments"><h5 class="text-center">Our Services</h5></a>
+                    <a class="nav-link" href="#treatments">
+                        <h5 class="text-center">Our Services</h5>
+                    </a>
                     <ul class="list-unstyled text-center">
                         <li><a href="/src/Swedish Massage.php" class="footcolor">Swedish Massage</a></li>
                         <li><a href="/src/Deep Tissue Massage.php" class="footcolor">Deep Tissue Massage</a></li>
