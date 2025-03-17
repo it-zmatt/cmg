@@ -495,8 +495,8 @@ section {
 .Locationhours {
     display: flex;
     flex-direction: column;
-    margin: 2.5% 2% 0% 2%;
-	width:20vw;
+    /* margin: 2.5% 2% 0% 2%; */
+	/* width:20vw; */
 }
 
 .MapTitle {
@@ -509,11 +509,11 @@ section {
     width: 6%;
 }
 
-.MapAll {
+/* .MapAll {
     width: fit-content;
     margin-top: auto;
     padding: 25px;
-}
+} */
 
 .Parallax {
     background-size: cover;
@@ -526,6 +526,11 @@ section {
 section#direction {
     background-color: #704B7D;
     color: white;
+}
+
+.mapObject{
+	width:40vw;
+	height:300px;
 }
 
 .cardLink {
@@ -574,10 +579,7 @@ iframe {
     border-radius: 25px !important;
     box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
 }
-.mapObject{
-	width:70vw;
-	height:500px;
-}
+
 @media (max-width: 749px) {
 	.text-center{
 		margin-top:20px;
