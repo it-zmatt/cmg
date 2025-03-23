@@ -6,6 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CMG Massage Therapy</title>
 
+    <meta name="description" content="CMG Massage Therapy in Merrickville offers professional Swedish, Deep Tissue, and Sports massage services. Book your massage today!">
+
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "CMG Massage Therapy",
+  "image": "https://www.cmgmassagetherapy.com/public/assets/image/LogoPositiv.png",
+  "@id": "https://www.cmgmassagetherapy.com",
+  "url": "https://www.cmgmassagetherapy.com",
+  "telephone": "+1-613-800-2018",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "290 Snowdon Drive East",
+    "addressLocality": "Merrickville",
+    "addressRegion": "ON",
+    "postalCode": "K0G 1N0",
+    "addressCountry": "CA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 44.85559,
+    "longitude": -75.76025
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "09:00",
+    "closes": "18:00"
+  },
+  "priceRange": "$$"
+}
+</script>
+
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
