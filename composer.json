@@ -1,7 +1,0 @@
-{
-    "name": "cmg/massage",
-    "description": "This is for using fetch the data from google sheets api",
-    "require": {
-        "google/apiclient": "^2.18"
-    }
-}

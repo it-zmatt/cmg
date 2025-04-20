@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+#contact {
+    scroll-margin-top: 100px; /* Adjust this value based on header height */
+  }
+  
+  #contact::before {
+    content: "";
+    display: block;
+    height: 100px; /* same height as sticky header */
+    margin-top: -100px;
+    visibility: hidden;
+  }
+  
