@@ -1,5 +1,26 @@
 # PHP Project Setup & Local Server Guide
 
+## Course Information
+This project is part of CST 2020 at Algonquin College.
+
+## Team Members
+- Mohamed Taous
+- Kashyap Raghav
+- Liu Zhongrui
+- Pal Veer Vaibhav
+- Ajmeri Mohammadaman
+- Brazeau Ethan
+
+## Project Manager:
+- Mohamed Taous
+
+## Tools & Technologies Used
+- PHP (Backend)
+- Tailwind CSS (Styling)
+- Google API (Integration)
+- SEO Optimization
+- Notion (Project Management & Task Tracking)
+
 ## Prerequisites
 Ensure you have the following installed:
 
