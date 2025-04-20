@@ -1,7 +1,7 @@
 # PHP Project Setup & Local Server Guide
 
 ## Course Information
-This project is part of CST 2020 at Algonquin College.
+This project is part of CST8268-010  Web Development and Internet Application Program at Algonquin College.
 
 ## Team Members
 - Mohamed Taous
@@ -11,7 +11,7 @@ This project is part of CST 2020 at Algonquin College.
 - Ajmeri Mohammadaman
 - Brazeau Ethan
 
-## Project Manager:
+### Project Manager
 - Mohamed Taous
 
 ## Tools & Technologies Used
